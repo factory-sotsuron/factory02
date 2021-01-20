@@ -78,4 +78,27 @@
 	setTimeout("disp()", 1000);
 }
 </script>
+
+<main>
+		<h2>結果</h2>
+		<form action="https://api.staticforms.xyz/submit" method="post">
+			<div>
+				名前<br>
+				<input type="text" name="yourname" placeholder="名前">
+			</div>
+			<div>
+				経過時間<br>
+				<input type="text" name="timer" placeholder="タイマーをコピペして貼る">
+			</div>
+			
+			<input type="hidden" name="accessKey" value="ea2f17f5-9906-49fb-ae1a-e43a169bb945">
+			<input type="hidden" name="subject" value="Contact us from - example.com">
+			<input type="hidden" name="replyTo" value="@">
+			<input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+			<div>
+				<input type="submit" name="submit" value="送信">
+			</div>
+		</form>
+	</main>
+	
 </html>
